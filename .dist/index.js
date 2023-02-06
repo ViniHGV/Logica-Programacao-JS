@@ -4,9 +4,27 @@ const lanch = () => {
     let price = 0
 
     if (cod === 1){
+        price = 4
+        price *= qtd
+        return alert(`Total: R$ ${price.toFixed(2)}`)
+    }else if (cod === 2){
         price = 4.50
         price *= qtd
-        return alert(`Total: ${price}`)
+        return alert(`Total: R$ ${price.toFixed(2)}`)
+    }else if (cod === 3){
+        price = 5
+        price *= qtd
+        return alert(`Total: R$ ${price.toFixed(2)}`)
+    }else if (cod === 4){
+        price = 2
+        price *= qtd
+        return alert(`Total: R$ ${price.toFixed(2)}`)
+    }else if (cod === 5){
+        price = 1.50
+        price *= qtd
+        return alert(`Total: R$ ${price.toFixed(2)}`)
+    }else {
+        alert("Código invalido!")
     }
 }
 
