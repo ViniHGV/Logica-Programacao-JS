@@ -1,4 +1,10 @@
-const Inter = () => {
+const lanch = () => {
+    let cod = parseInt(prompt("Digite o código do lanche"))
+    let qtd = parseInt(prompt("Digite a quantidade que deseja"))
+    let price = 0
+}
+
+/*const Inter = () => {
     let number = parseInt(prompt("Digite o numero para saber seu intervalo:"))
 
 
@@ -19,14 +25,7 @@ Inter()
 
 
 
-
-
-
-
-
-
-
-/*const CalcSimple = () => {
+const CalcSimple = () => {
    // let prod1 = parseInt(prompt("Digite o código do produto"))
     let qtdProd1 = parseInt(prompt("Digite a quantidade do produto do produto"))
     let prcProd1 = parseFloat(prompt("Digite o preço do produto"))
