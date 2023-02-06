@@ -1,5 +1,13 @@
 const CalcSimple = () => {
-    let cod1 = parseInt(prompt("Digite o código do produto"))
+    let prod1 = parseInt(prompt("Digite o código do produto"))
+    let qtdProd1 = parseInt(prompt("Digite a quantidade do produto do produto"))
+    let prcProd1 = parseFloat(prompt("Digite o cpreço do produto"))
+
+    let prod2 = parseInt(prompt("Digite o código do 2° produto"))
+    let qtdProd2 = parseInt(prompt("Digite a quantidade do produto do 2° produto"))
+    let prcProd2 = parseFloat(prompt("Digite o cpreço do 2° produto"))
+
+    
 }
 
 CalcSimple()
