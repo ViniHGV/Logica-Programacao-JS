@@ -2,7 +2,17 @@ const lanch = () => {
     let cod = parseInt(prompt("Digite o código do lanche"))
     let qtd = parseInt(prompt("Digite a quantidade que deseja"))
     let price = 0
+
+    if (cod === 1){
+        price = 4.50
+        price *= qtd
+        return alert(`Total: ${price}`)
+    }
 }
+
+lanch()
+
+
 
 /*const Inter = () => {
     let number = parseInt(prompt("Digite o numero para saber seu intervalo:"))
