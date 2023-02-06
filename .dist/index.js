@@ -1,12 +1,16 @@
 const media = () => {
-    let N1 = parseInt(prompt("Digite a nota tirada na 1ª prova"))
-    let N2 = parseInt(prompt("Digite a nota tirada na 2ª prova"))
-    let N3 = parseInt(prompt("Digite a nota tirada na 3ª prova"))
-    let N4 = parseInt(prompt("Digite a nota tirada na 4ª prova"))
-    
+    let cont = 1
+    let totN = 0
+    while (cont<=4) {
+        let Notas = parseFloat(prompt(`Digite a nota tirada na ${cont}ª prova`))
+        totN += Notas
+        cont++
+    }
+
+
 }
 
-
+media()
 
 /*const lanch = () => {
     let cod = parseInt(prompt("Digite o código do lanche"))
