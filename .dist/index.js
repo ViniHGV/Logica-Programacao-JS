@@ -1,5 +1,12 @@
+const CalcSimple = () => {
+    let cod1 = parseInt(prompt("Digite o código do produto"))
+}
+
+CalcSimple()
+
 
 //Calculadora geométrica
+/*
 
 function triangulo(base, altura){
     let area = (base * altura) /2
@@ -358,4 +365,4 @@ let mult = num1 * num2
 let div = num1 / num2
 let res = num1 % num2
 
-alert("Soma = "+soma +"\nsub = "+sub +"\nmultiplicação = "+ mult + "\ndivisão = "+ div + "\nResto da divisão ="+ res)
+alert("Soma = "+soma +"\nsub = "+sub +"\nmultiplicação = "+ mult + "\ndivisão = "+ div + "\nResto da divisão ="+ res)*/
