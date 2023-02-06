@@ -8,8 +8,10 @@ const media = () => {
         cont++
     }
     media = totN / 4
-    if (media >= 7.0){
+    if (media >= 7.0 && media <= 10){
         return alert(`Media: ${media}\nAluno aprovado`)
+    }else if (media >0 && media < 5){
+        return alert(`Media: ${media}\nAluno reprovado`)
     }
 }
 
