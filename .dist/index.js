@@ -1,13 +1,16 @@
 const media = () => {
     let cont = 1
     let totN = 0
+    let media = 0
     while (cont<=4) {
         let Notas = parseFloat(prompt(`Digite a nota tirada na ${cont}ª prova`))
         totN += Notas
         cont++
     }
-
-
+    media = totN / 4
+    if (media >= 7.0){
+        return alert(`Media: ${media}\nAluno aprovado`)
+    }
 }
 
 media()
