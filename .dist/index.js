@@ -20,6 +20,8 @@ const media = () => {
         }else  if (media <5){
             return alert(`Aluno reprovado\nMedia final: ${media}`)
         }
+    }else {
+       return alert("Média invalida")
     }
 }
 
