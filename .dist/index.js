@@ -9,16 +9,16 @@ const media = () => {
     }
     media = totN / 4
     if (media >= 7.0 && media <= 10){
-        return alert(`Media: ${media}\nAluno aprovado`)
+        return alert(`Média: ${media}\nAluno aprovado`)
     }else if (media >0 && media < 5){
-        return alert(`Media: ${media}\nAluno reprovado`)
+        return alert(`Média: ${media}\nAluno reprovado`)
     }else if (media >= 5 && media <=6.9){
-        Notas = parseFloat(prompt(`Media: ${media}\nAluno em exame.\nDigite a nota tirada no exame:`))
+        Notas = parseFloat(prompt(`Média: ${media}\nAluno em exame.\nDigite a nota tirada no exame:`))
         media = (media + Notas) /2
         if (media >=5){
-            return alert(`Aluno aprovado\nMedia final: ${media}`)
+            return alert(`Aluno aprovado\nMédia final: ${media}`)
         }else  if (media <5){
-            return alert(`Aluno reprovado\nMedia final: ${media}`)
+            return alert(`Aluno reprovado\nMédia final: ${media}`)
         }
     }else {
        return alert("Média invalida")
