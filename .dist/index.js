@@ -1,4 +1,8 @@
 const media = () => {
+    let N1 = parseInt(prompt("Digite a nota tirada na 1ª prova"))
+    let N2 = parseInt(prompt("Digite a nota tirada na 2ª prova"))
+    let N3 = parseInt(prompt("Digite a nota tirada na 3ª prova"))
+    let N4 = parseInt(prompt("Digite a nota tirada na 4ª prova"))
     
 }
 
