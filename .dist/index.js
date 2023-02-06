@@ -12,6 +12,14 @@ const media = () => {
         return alert(`Media: ${media}\nAluno aprovado`)
     }else if (media >0 && media < 5){
         return alert(`Media: ${media}\nAluno reprovado`)
+    }else if (media >= 5 && media <=6.9){
+        Notas = parseFloat(prompt(`Media: ${media}\nAluno em exame.\nDigite a nota tirada no exame:`))
+        media = (media + Notas) /2
+        if (media >=5){
+            return alert(`Aluno aprovado\nMedia final: ${media}`)
+        }else  if (media <5){
+            return alert(`Aluno reprovado\nMedia final: ${media}`)
+        }
     }
 }
 
