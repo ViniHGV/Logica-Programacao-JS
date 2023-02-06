@@ -1,4 +1,32 @@
-const CalcSimple = () => {
+const Inter = () => {
+    let number = parseInt(prompt("Digite o numero para saber seu intervalo:"))
+
+
+    if (number > 0 && number <= 25) {
+        return alert("Intervalo (0,25]")
+    } else if (number > 25 && number <= 50) {
+        return alert("Intervalo (25,50]")
+    } else if (number > 50 && number <= 75) {
+        return alert("Intervalo (50,75]")
+    } else if (number > 75 && number <= 100) {
+        return alert("Intervalo (75,100]")
+    }
+    return alert("Fora de intervalo")
+
+}
+
+Inter()
+
+
+
+
+
+
+
+
+
+
+/*const CalcSimple = () => {
    // let prod1 = parseInt(prompt("Digite o código do produto"))
     let qtdProd1 = parseInt(prompt("Digite a quantidade do produto do produto"))
     let prcProd1 = parseFloat(prompt("Digite o preço do produto"))
@@ -16,7 +44,7 @@ CalcSimple()
 
 
 //Calculadora geométrica
-/*
+
 
 function triangulo(base, altura){
     let area = (base * altura) /2
